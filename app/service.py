@@ -249,6 +249,7 @@ class NoteService:
             self._update_cache(note)
             
             logger.info(f"Note restored: id={note_id}, title={note.title}")
+            await self.db.refresh(note)
             return note
 
 
