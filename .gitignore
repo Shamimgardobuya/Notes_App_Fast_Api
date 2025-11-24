@@ -1,0 +1,5 @@
+.venv**/
+**__pycache__
+.env
+app.log
+notes_db.db

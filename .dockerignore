@@ -1,0 +1,8 @@
+tests
+**/.venv
+**/__pycache__
+app.log
+notes_db.db
+*.pyc
+.venv
+.pytest_cache
